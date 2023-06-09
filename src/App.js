@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Hero from "./components/Hero";
+import Benefits from "./components/Benefits";
+import Standed from "./components/Standed";
+import Instantapp from "./components/Instantapp";
+import Ourproducts from "./components/Ourproducts";
+import Protecturo from "./components/Protecturo";
+import Features from "./components/Features";
+import Stayconnect from "./components/Stayconnect";
+import Howworks from "./components/Howworks";
+import Faqs from "./components/Faqs";
+import Global from "./components/Global";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <Benefits />
+      <Standed />
+      <Instantapp />
+      <Ourproducts/>
+      <Protecturo/>
+      {/* <Howworks/> */}
+      <Features/>
+      <Stayconnect/>
+      <Faqs/>
+      <Global/>
+      <Footer/>
+    </>
   );
 }
 
