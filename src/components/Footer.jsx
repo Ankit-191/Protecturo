@@ -55,17 +55,17 @@ const Footer = () => {
                 Products
               </p>
               <ul className="p-0 headhover">
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     eSIM SIM
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     SIM Card
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Wifi HotSopt
                   </a>
@@ -77,27 +77,27 @@ const Footer = () => {
                 Company
               </p>
               <ul className="p-0 headhover">
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     About
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Careers
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Ventures
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Grants
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Docs
                   </a>
@@ -109,27 +109,27 @@ const Footer = () => {
                 Resources
               </p>
               <ul className="p-0 headhover">
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Support Center
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     FAQs
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Partners
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Blogs
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Updates & News
                   </a>
@@ -141,27 +141,27 @@ const Footer = () => {
                 My Account
               </p>
               <ul className="p-0 headhover">
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Profile
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Favorites
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Watchlist
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     My Collections
                   </a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2 mb-lg-3">
                   <a href="#" className="ff_Gilroy fw_600 fs_sm clr_gray_100">
                     Settings
                   </a>

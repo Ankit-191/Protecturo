@@ -14,21 +14,25 @@ import Howworks from "./components/Howworks";
 import Faqs from "./components/Faqs";
 import Global from "./components/Global";
 import Footer from "./components/Footer";
+import Topbtn from "./components/Topbtn";
+import Preloder from "./components/Preloder";
 function App() {
   return (
     <>
+      <Preloder />
       <Hero />
       <Benefits />
       <Standed />
       <Instantapp />
-      <Ourproducts/>
-      <Protecturo/>
-      {/* <Howworks/> */}
-      <Features/>
-      <Stayconnect/>
-      <Faqs/>
-      <Global/>
-      <Footer/>
+      <Ourproducts />
+      <Protecturo />
+      <Howworks />
+      <Features />
+      <Stayconnect />
+      <Faqs />
+      <Global />
+      <Footer />
+      <Topbtn />
     </>
   );
 }

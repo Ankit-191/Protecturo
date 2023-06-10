@@ -16,8 +16,8 @@ const Howworks = () => {
             <span className="d-block">international eSIM work.</span>
           </h5>
           <Row className="justify-content-evenly">
-            <Col sm={2}>
-              <div className="text-center pt-5 mt-4 check position-relative">
+            <Col lg={2}>
+              <div className="text-center pt-lg-5 mt-4 check position-relative">
                 <img src={check} alt="check" />
                 <h4 className=" ff_Gilroy fw_700 fs_3xl clr_gray_200 mb-2 mt-3 pt-1">
                   Check
@@ -27,8 +27,8 @@ const Howworks = () => {
                 </p>
               </div>
             </Col>
-            <Col sm={2}>
-              <div className="text-center shoping position-relative">
+            <Col lg={2}>
+              <div className="text-center shoping mt-lg-0 mt-4 position-relative">
                 <img src={buy} alt="shoppingcart" />
                 <h4 className=" ff_Gilroy fw_700 fs_3xl clr_gray_200 mb-2 mt-3 pt-1">
                   Buy
@@ -38,8 +38,8 @@ const Howworks = () => {
                 </p>
               </div>
             </Col>
-            <Col sm={3}>
-              <div className="text-center pt-5 mt-4 qrline position-relative">
+            <Col lg={3}>
+              <div className="text-center pt-lg-5 mt-4 qrline position-relative">
                 <img src={qrcode} alt="qrcode" />
                 <h4 className=" ff_Gilroy fw_700 fs_3xl clr_gray_200 mb-2 mt-3 pt-1">
                   Install the QR

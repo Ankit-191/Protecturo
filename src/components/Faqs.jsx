@@ -3,7 +3,7 @@ import faqs from "../assets/images/webp/faqs.webp";
 const Faqs = () => {
   return (
     <>
-      <section className="faqs_shadow position-relative">
+      <section className="faqs_shadow position-relative overflow-hidden">
         <Container className="position-relative py-lg-5 py-4">
           <Row className="align-items-xl-center justify-content-center py-xl-5">
             <Col xl={6} className="py-xxl-5">
