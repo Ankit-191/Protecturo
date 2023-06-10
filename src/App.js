@@ -16,7 +16,14 @@ import Global from "./components/Global";
 import Footer from "./components/Footer";
 import Topbtn from "./components/Topbtn";
 import Preloder from "./components/Preloder";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <Preloder />

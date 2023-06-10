@@ -622,6 +622,18 @@
   .shoping::before {
     width: 130px;
   }
+  .check::after {
+    width: 134.75px;
+    height: 2px;
+    left: -67px;
+    top: 100.25%;
+  }
+  .qrline::after {
+    width: 138px;
+    height: 2px;
+    left: -69px;
+    top: 1px;
+  }
 }
 @media (max-width: 576px) {
   .hero_h800 {
@@ -663,5 +675,17 @@
   .check::before,
   .shoping::before {
     width: 60px;
+  }
+  .check::after {
+    width: 128.75px;
+    height: 2px;
+    left: -64px;
+    top: 100.85%;
+  }
+  .qrline::after {
+    width: 134px;
+    height: 2px;
+    left: -66px;
+    top: 3px;
   }
 }

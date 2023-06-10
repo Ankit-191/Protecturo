@@ -20,8 +20,8 @@ const Topbtn = () => {
             className="position-fixed topbtn bottom-0 end-0 me-4 mb-4 top_btn rounded-circle pointer"
           >
             <svg
-              width="100"
-              height="100"
+              width="64"
+              height="64"
               viewBox="0 0 64 64"
               fill="red"
               xmlns="http://www.w3.org/2000/svg"

@@ -9,10 +9,19 @@ const Standed = () => {
       <section className="py-4 py-lg-5 my-lg-4">
         <Container>
           <Row className="align-items-center justify-content-center">
-            <Col sm={8} lg={6}>
-              <img src={standards} alt="standards" className="w-100 mb-4 mb-lg-0" />
+            <Col
+              sm={8}
+              lg={6}
+              data-aos="zoom-out-right"
+              data-aos-duration="1000"
+            >
+              <img
+                src={standards}
+                alt="standards"
+                className="w-100 mb-4 mb-lg-0"
+              />
             </Col>
-            <Col lg={6}>
+            <Col lg={6} data-aos="zoom-out-left" data-aos-duration="1000">
               <p className="textred ff_Gilroy fw_700 fs_2xl">Our benefits</p>
               <h5 className="ff_Gilroy fw_700 fs_6xl clr_white mw_787 mb-3 pb-xl-1 tracking_tighter">
                 Privacy standards not seen before in telecom

@@ -69,9 +69,12 @@ const Benefits = () => {
   };
   return (
     <>
-      <section className="py-5">
+      <section className="py-5" data-aos="fade-up">
         <Container>
-          <div className="d-flex flex-column align-items-center text-center">
+          <div
+            className="d-flex flex-column align-items-center text-center"
+            
+          >
             <p className="textred ff_Gilroy fw_700 fs_2xl">Our benefits</p>
             <h5 className="ff_Gilroy fw_700 fs_6xl clr_white mw_787 mb-3 pb-xl-1">
               Take control of your cellular connectivity
@@ -84,7 +87,12 @@ const Benefits = () => {
           <Slider {...Benefits} className="mt-3 pt-1">
             {Ourbenefits.map((card) => {
               return (
-                <div key={card.id} className="p-2">
+                <div
+                  key={card.id}
+                  className="p-2"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <div className="benefits_card h-100 py-md-5 py-4 px-md-4 px-2 d-flex flex-column text-center align-items-center justify-content-between">
                     <div className="d-flex flex-column align-items-center">
                       <img
