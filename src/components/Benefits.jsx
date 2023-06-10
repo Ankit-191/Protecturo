@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import getstarted from "../assets/svg/started.svg";
 import manage from "../assets/svg/manage.svg";
 import global from "../assets/svg/global.svg";
-import scale from "../assets/svg/manage.svg";
+import scale from "../assets/svg/scale.svg";
 import Slider from "react-slick";
 
 const Benefits = () => {
@@ -40,6 +40,8 @@ const Benefits = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
     responsive: [
       {
         breakpoint: 1200,
@@ -71,15 +73,12 @@ const Benefits = () => {
     <>
       <section className="py-5" data-aos="fade-up">
         <Container>
-          <div
-            className="d-flex flex-column align-items-center text-center"
-            
-          >
-            <p className="textred ff_Gilroy fw_700 fs_2xl">Our benefits</p>
-            <h5 className="ff_Gilroy fw_700 fs_6xl clr_white mw_787 mb-3 pb-xl-1">
+          <div className="d-flex flex-column align-items-center text-center">
+            <p className="textred ff_ExtraBold fw_700 fs_2xl">Our benefits</p>
+            <h5 className="ff_ExtraBold fw_700 fs_6xl clr_white mw_787 mb-3 pb-xl-1">
               Take control of your cellular connectivity
             </h5>
-            <p className="ff_Gilroy fw_500 fs_2sm clr_gray_100 mw_787 mb-lg-5 mb-4">
+            <p className="ff_Medium fw_500 fs_2sm clr_gray_100 mw_787 mb-lg-5 mb-4">
               Your creativity is endless. Your IoT project shouldn't be held
               back by cellular connectivity. Let's build a new unicorn together.
             </p>
@@ -89,7 +88,7 @@ const Benefits = () => {
               return (
                 <div
                   key={card.id}
-                  className="p-2"
+                  className="benefitsp_12"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -98,12 +97,12 @@ const Benefits = () => {
                       <img
                         src={card.img}
                         alt="getstarted"
-                        style={{ width: 136, height: 132 }}
+                        style={{ width: 166, height: 162 }}
                       />
-                      <p className="ff_Gilroy fw_600 fs_2xl clr_white mt-4 pt-md-1 mb-2">
+                      <p className="ff_Medium fw_600 fs_2xl clr_white mt-4 pt-md-1 mb-2">
                         {card.hading}
                       </p>
-                      <p className="ff_Gilroy fw_500 fs_sm clr_gray_100 mb-4 pb-1">
+                      <p className="ff_Medium fw_500 fs_sm clr_gray_100 mb-4 pb-1">
                         {card.para}
                       </p>
                     </div>

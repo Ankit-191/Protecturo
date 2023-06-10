@@ -10,11 +10,11 @@ const Instantapp = () => {
         <Container className="pt-xl-5 mt-xl-4">
           <Row className="bg_connectivity position-relative align-items-center justify-content-center">
             <Col lg={7}>
-              <div className="py-lg-5 py-4 px-xxl-5 ms-lg-5 my-xxl-5">
-                <h5 className="ff_Gilroy fw_700 fs_6xl clr_white mw_787 mb-3 pb-xl-1 tracking_tighter">
+              <div className="py-lg-5 py-4 px-xxl-5 ms-lg-4 my-xxl-4">
+                <h5 className="ff_ExtraBold fw_700 fs_6xl clr_white mw_787 mb-3 pb-xl-1 tracking_tighter">
                   Instant connectivity with the Protecturo app
                 </h5>
-                <p className="ff_Gilroy fw_500 fs_2sm clr_gray_100 mw_787 mb-xl-4 mb-3 pb-xl-3">
+                <p className="ff_Medium fw_500 fs_2sm clr_gray_100 mw_787 mb-xl-4 mb-3 pb-xl-3">
                   The ideal for the 21st century roadwarrior. The Protecturo app
                   lets you to grab a single data plan where and when you want -
                   at home or in any of our 190+ destinations. Select a plan from

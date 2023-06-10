@@ -96,17 +96,17 @@ const Features = () => {
     <>
       <section className="py-4 py-lg-5">
         <Container className="position-relative features_shadow">
-          <p className="textred ff_Gilroy fw_700 fs_2xl text-center">
+          <p className="textred ff_ExtraBold fw_700 fs_2xl text-center">
             Features
           </p>
-          <h5 className="ff_Gilroy fw_700 fs_6xl clr_gray_200 mb-lg-5 text-center">
+          <h5 className="ff_ExtraBold fw_700 fs_6xl clr_gray_200 mb-lg-5 text-center">
             Best-in-class Cyber safety
             <span className="d-sm-block">for commercial and personal.</span>
           </h5>
           <Slider {...Ourproduct} className="mt-lg-4 mt-2 pt-lg-1">
             {Ourproducts.map((card) => {
               return (
-                <div sm={3} key={card.id} className="p-2">
+                <div sm={3} key={card.id} className="px-3 py-2">
                   <div className="benefits_card rounded-0 h-100 py-lg-5 py-4 px-lg-4 px-3">
                     <div className="px-lg-3">
                       <img
@@ -114,10 +114,10 @@ const Features = () => {
                         alt="icon"
                         style={{ width: 65, height: 65 }}
                       />
-                      <p className="ff_Gilroy fw_600 fs_2xl clr_gray mt-lg-4 mb-2 pt-3 pb-lg-1">
+                      <p className="ff_Medium fw_600 fs_2xl clr_gray mt-lg-4 mb-2 pt-3 pb-lg-1">
                         {card.hading}
                       </p>
-                      <p className="ff_Gilroy fw_500 fs_sm clr_gray_100 mb-0">
+                      <p className="ff_Medium fw_500 fs_sm clr_gray_100 mb-0">
                         {card.para}
                       </p>
                     </div>
@@ -126,10 +126,10 @@ const Features = () => {
               );
             })}
           </Slider>
-          <Slider {...Ourproduct} className="mt-lg-4 mt-0 pt-lg-1">
+          <Slider {...Ourproduct} className="mt-lg-3 mt-0">
             {Ourproducts1.map((card) => {
               return (
-                <div sm={3} key={card.id} className="p-2">
+                <div sm={3} key={card.id} className="px-3 py-2">
                   <div className="benefits_card rounded-0 h-100 py-lg-5 py-4 px-lg-4 px-3">
                     <div className="px-3">
                       <img

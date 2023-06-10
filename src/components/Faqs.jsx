@@ -7,8 +7,8 @@ const Faqs = () => {
         <Container className="position-relative py-lg-5 py-4">
           <Row className="align-items-xl-center justify-content-center py-xl-5">
             <Col xl={6} className="py-xxl-5">
-              <p className="textred ff_Gilroy fw_700 fs_2xl">FAQs</p>
-              <h5 className="ff_Gilroy fw_700 fs_6xl clr_gray_200 mb-4 pb-xl-3">
+              <p className="textred ff_ExtraBold fw_700 fs_2xl">FAQs</p>
+              <h5 className="ff_ExtraBold fw_700 fs_6xl clr_gray_200 mb-4 pb-xl-3">
                 Some useful answers
               </h5>
               <Accordion defaultActiveKey="0">

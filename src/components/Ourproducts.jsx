@@ -30,8 +30,8 @@ const Ourproducts = () => {
       <section className="py-4 py-lg-5 position-relative ourproducts_shadow">
         <Container>
           <div className="d-flex flex-column align-items-center text-center">
-            <p className="textred ff_Gilroy fw_700 fs_2xl">Our products</p>
-            <h5 className="ff_Gilroy fw_700 fs_6xl clr_gray_200 mb-lg-5 mb-2">
+            <p className="textred ff_ExtraBold fw_700 fs_2xl">Our products</p>
+            <h5 className="ff_ExtraBold fw_700 fs_6xl clr_gray_200 mb-lg-5 mb-2">
               Allow us to secure your data
               <span className="d-lg-block"> with Protecturo’s products</span>
             </h5>
@@ -47,10 +47,10 @@ const Ourproducts = () => {
                         alt="getstarted"
                         style={{ width: 138, height: 138 }}
                       />
-                      <p className="ff_Gilroy fw_600 fs_2xl clr_gray mt-md-4 pt-3">
+                      <p className="ff_Medium fw_600 fs_2xl clr_gray mt-md-4 pt-3">
                         {card.hading}
                       </p>
-                      <p className="ff_Gilroy fw_500 fs_sm clr_gray_100 mb-md-4 mb-3 pb-1">
+                      <p className="ff_Medium fw_500 fs_sm clr_gray_100 mb-md-4 mb-3 pb-1">
                         {card.para}
                       </p>
                     </div>

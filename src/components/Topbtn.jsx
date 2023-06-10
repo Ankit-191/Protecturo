@@ -17,11 +17,11 @@ const Topbtn = () => {
         {backTop ? (
           <button
             onClick={moveToTop}
-            className="position-fixed topbtn bottom-0 end-0 me-4 mb-4 top_btn rounded-circle pointer"
+            className="position-fixed border-0 topbtn bottom-0 end-0 me-4 mb-4 top_btn rounded-circle pointer"
           >
             <svg
-              width="64"
-              height="64"
+              width="50"
+              height="50"
               viewBox="0 0 64 64"
               fill="red"
               xmlns="http://www.w3.org/2000/svg"

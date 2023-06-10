@@ -27,15 +27,25 @@
   font-family: "Montserrat", sans-serif;
 }
 @font-face {
-  font-family: "Gilroy", sans-serif;
+  font-family: "ExtraBold";
   src: url(./assets/fonts/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
 }
 @font-face {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Light";
   src: url(./assets/fonts/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
 }
-.ff_Gilroy {
-  font-family: "Gilroy", sans-serif;
+@font-face {
+  font-family: "Medium";
+  src: url(./assets/fonts/Gilroy-Medium.ttf);
+}
+.ff_ExtraBold {
+  font-family: "ExtraBold", sans-serif;
+}
+.ff_Medium {
+  font-family: "Medium", sans-serif;
+}
+.ff_Light {
+  font-family: "Light", sans-serif;
 }
 .fw_500 {
   font-weight: 500;
@@ -231,6 +241,9 @@
 }
 .mw_286 {
   max-width: 286px;
+}
+.benefitsp_12{
+  padding: 8px 12px;
 }
 .btn_started {
   background-color: var(--clr-black);

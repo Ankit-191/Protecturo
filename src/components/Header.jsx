@@ -34,34 +34,34 @@ const Header = () => {
               }`}
               onClick={() => sethead(true)}
             >
-              <ul className="d-flex align-items-center p-0 gap_40 gap_20 flex-column flex-lg-row headhover">
+              <ul className="d-flex m-0 align-items-center p-0 gap_40 gap_20 flex-column flex-lg-row headhover">
                 <li>
-                  <a href="#" className="ff_Gilroy fw_600 fs_xl clr_gray">
+                  <a href="#" className="ff_Medium fw_600 fs_xl clr_gray">
                     Benefits
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="ff_Gilroy fw_600 fs_xl clr_gray">
+                  <a href="#" className="ff_Medium fw_600 fs_xl clr_gray">
                     Privacy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="ff_Gilroy fw_600 fs_xl clr_gray">
+                  <a href="#" className="ff_Medium fw_600 fs_xl clr_gray">
                     Products
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="ff_Gilroy fw_600 fs_xl clr_gray">
+                  <a href="#" className="ff_Medium fw_600 fs_xl clr_gray">
                     App
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="ff_Gilroy fw_600 fs_xl clr_gray">
+                  <a href="#" className="ff_Medium fw_600 fs_xl clr_gray">
                     Features
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="ff_Gilroy fw_600 fs_xl clr_gray">
+                  <a href="#" className="ff_Medium fw_600 fs_xl clr_gray">
                     FAQs
                   </a>
                 </li>

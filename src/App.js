@@ -25,7 +25,7 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <>
+    <div className="overflow-hidden">
       <Preloder />
       <Hero />
       <Benefits />
@@ -40,7 +40,7 @@ function App() {
       <Global />
       <Footer />
       <Topbtn />
-    </>
+    </div>
   );
 }
 

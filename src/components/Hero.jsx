@@ -10,7 +10,7 @@ const Hero = () => {
         <section className="bgimg_hero position-relative flex-grow-1 hero_h800 pt-lg-5 pt-4">
           <Container>
             <div className="redline m-auto rounded-pill mb-lg-4 mb-3"></div>
-            <p className="ff_Gilroy fw_700 fs_8xl clr_white_100 text-center lh_95">
+            <p className="ff_ExtraBold fw_700 fs_8xl clr_white_100 text-center lh_95">
               Cyber safety starts
               <span className="d-sm-block">here. For both commercial</span> and
               personal.

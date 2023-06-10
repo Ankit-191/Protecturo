@@ -38,14 +38,14 @@ const Protecturo = () => {
         <Container>
           <Row className="align-items-center justify-content-center">
             <Col lg={6}>
-              <p className="textred ff_Gilroy fw_700 fs_2xl">
+              <p className="textred ff_ExtraBold fw_700 fs_2xl">
                 Our product benefits
               </p>
-              <h5 className="ff_Gilroy fw_700 fs_6xl clr_gray_200 mb-3">
+              <h5 className="ff_ExtraBold fw_700 fs_6xl clr_gray_200 mb-3">
                 What you will
                 <span className="d-block">get with Protecturo</span>
               </h5>
-              <p className="ff_Gilroy fw_500 fs_2sm clr_gray_100 mw_787 mb-xl-5 mb-2">
+              <p className="ff_Medium fw_500 fs_2sm clr_gray_100 mw_787 mb-0">
                 Your creativity is endless. Your IoT project shouldn't be held
                 back by cellular connectivity. Let's build a new unicorn
                 together.
@@ -53,13 +53,13 @@ const Protecturo = () => {
               <Row className="mb-4 mb-lg-0">
                 {Ourproductbenefits.map((card) => {
                   return (
-                    <Col sm={6} key={card.id} className="mt-3">
+                    <Col sm={6} key={card.id} className="mt-lg-5 mt-3 pt-2">
                       <div className="mw_286">
                         <img src={card.img} alt="stay" />
-                        <h5 className="ff_Gilroy fw_600 fs_2xl clr_gray_200 mt-lg-4 mt-3">
+                        <h5 className="ff_Medium fw_600 fs_2xl clr_gray_200 mt-lg-4 mt-3">
                           {card.hading}
                         </h5>
-                        <p className="ff_Gilroy fw_500 fs_sm clr_gray_100 mb-0">
+                        <p className="ff_Medium fw_500 fs_sm clr_gray_100 mb-0">
                           {card.para}
                         </p>
                       </div>

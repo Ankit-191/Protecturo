@@ -17,13 +17,13 @@ const Global = () => {
             </Col>
             <Col lg={7}>
               <div className="py-lg-5 py-4">
-                <h5 className="ff_Gilroy fw_700 fs_6xl clr_white mb-3 pb-xl-1 tracking_tighter">
+                <h5 className="ff_ExtraBold fw_700 fs_6xl clr_white mb-3 pb-xl-1 tracking_tighter">
                   Global IoT connectivity to
                   <span className="d-xl-block text_nowrap">
                     deploy and scale your solutions
                   </span>
                 </h5>
-                <p className="ff_Gilroy fw_500 fs_2sm clr_gray_100 mw_787 mb-xl-5 mb-3 pb-xl-3">
+                <p className="ff_Medium fw_500 fs_2sm clr_gray_100 mw_787 mb-xl-5 mb-3 pb-xl-3">
                   If you're serious about getting your IoT build off the ground
                   - Protecturo is ready to make it quick, frictionless and
                   smart. Get started today with a free SIM & data, or explore
